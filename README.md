@@ -36,7 +36,6 @@ graph TD
 | Visualization | (Pluggable – Power BI, Tableau, etc.) |
 
 ---
-
 ## ✅ Core Features
 
 - 🔄 **Full & Delta Load Support** for ingesting JSON log files.
@@ -103,6 +102,11 @@ graph TD
 4. Run ADF pipelines to ingest data into Delta Lake.
 5. Trigger DAGs from Airflow or schedule cron jobs.
 6. Validate data in Delta Lake (via Databricks or notebooks).
+
+---
+## 📐 Dimensional Model
+
+![Dimensional Model](./Diagrams/Dimensional%20model.png)
 
 ---
 
